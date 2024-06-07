@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Interview Questions</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <div class="max-w-4xl mx-auto py-8">
+    <h1 class="text-3xl font-bold mb-6 text-center">CSS Interview Questions</h1>
+    <div class="space-y-6">
+      <!-- Question 1 -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-xl font-semibold mb-2">1. What is CSS and why is it important in web development?</h2>
+        <p>CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in HTML. It is important because it allows developers to separate content from design, enabling better control over layout, colors, fonts, and overall visual aesthetics.</p>
+      </div>
+
+      <!-- Question 2 -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-xl font-semibold mb-2">2. What is the box model in CSS?</h2>
+        <p>The CSS box model describes the rectangular boxes generated for elements in the document tree and consists of margins, borders, padding, and the actual content area. It determines how elements are sized and spaced on a webpage.</p>
+      </div>
+
+      <!-- Question 3 -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-xl font-semibold mb-2">3. What is the difference between classes and IDs in CSS?</h2>
+        <p>Classes are reusable and can be applied to multiple elements, allowing for consistent styling. IDs are unique and should be applied to a single element, often used for identifying elements for JavaScript manipulation.</p>
+      </div>
+
+      <!-- Question 4 -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-xl font-semibold mb-2">4. What are CSS selectors? Provide examples.</h2>
+        <p>CSS selectors are patterns used to select and style elements. Examples include type selectors (e.g., <code>p</code>), class selectors (e.g., <code>.class-name</code>), ID selectors (e.g., <code>#id-name</code>), and attribute selectors (e.g., <code>[type="text"]</code>).</p>
+      </div>
+
+      <!-- Question 5 -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-xl font-semibold mb-2">5. What is the difference between inline, inline-block, and block elements?</h2>
+        <p>Inline elements do not start on a new line and take up only as much width as necessary (e.g., <code>&lt;span&gt;</code>). Inline-block elements are similar but allow setting width and height. Block elements start on a new line and take up the full width available (e.g., <code>&lt;div&gt;</code>).</p>
+      </div>
+
+      <!-- Question 6 -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-xl font-semibold mb-2">6. How can you center a block element horizontally in CSS?</h2>
+        <p>You can center a block element horizontally by setting its margin to auto: <code>margin: 0 auto;</code>, and specifying a width for the element.</p>
+      </div>
+
+      <!-- Question 7 -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-xl font-semibold mb-2">7. What is the purpose of the z-index property in CSS?</h2>
+        <p>The <code>z-index</code> property controls the stacking order of elements that overlap. Higher values are placed on top of lower values.</p>
+      </div>
+
+      <!-- Question 8 -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-xl font-semibold mb-2">8. What are pseudo-classes and pseudo-elements in CSS? Give examples.</h2>
+        <p>Pseudo-classes target elements based on their state (e.g., <code>:hover</code>, <code>:focus</code>). Pseudo-elements style specific parts of an element (e.g., <code>::before</code>, <code>::after</code>).</p>
+      </div>
+
+      <!-- Question 9 -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-xl font-semibold mb-2">9. How do you create a flex container in CSS?</h2>
+        <p>To create a flex container, set the <code>display</code> property of an element to <code>flex</code>: <code>display: flex;</code>. This enables flexbox layout for its children.</p>
+      </div>
+
+      <!-- Question 10 -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-xl font-semibold mb-2">10. What is a CSS preprocessor and why would you use one?</h2>
+        <p>A CSS preprocessor extends CSS with variables, nested rules, and functions, making it more maintainable and reusable. Examples include Sass, LESS, and Stylus.</p>
+      </div>
+
+      <!-- Question 11 -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-xl font-semibold mb-2">11. What are media queries in CSS?</h2>
+        <p>Media queries allow you to apply CSS rules based on the characteristics of the device or viewport, such as width, height, and orientation. They are used to create responsive designs.</p>
+      </div>
+
+      <!-- Question 12 -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-xl font-semibold mb-2">12. How do you apply CSS styles to an element with a specific attribute?</h2>
+        <p>You can use attribute selectors to apply styles to elements with specific attributes. For example, <code>input[type="text"]</code> selects all <code>&lt;input&gt;</code> elements with a <code>type</code> attribute value of "text".</p>
+      </div>
+
+      <!-- Question 13 -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-xl font-semibold mb-2">13. What is the difference between padding and margin?</h2>
+        <p>Padding is the space between the content and the border of an element, while margin is the space outside the border, between the element and its surrounding elements.</p>
+      </div>
+
+      <!-- Question 14 -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-xl font-semibold mb-2">14. How do you create a CSS grid container?</h2>
+        <p>To create a CSS grid container, set the <code>display</code> property of an element to <code>grid</code>: <code>display: grid;</code>. This enables grid layout for its children.</p>
+      </div>
+
+      <!-- Question 15 -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-xl font-semibold mb-2">15. What is the purpose of the <code>float</code> property in CSS?</h2>
+        <p>The <code>float</code> property is used to position elements to the left or right of their container, allowing text and inline elements to wrap around them.</p>
+      </div>
+
+      <!-- Question 16 -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-xl font-semibold mb-2">16. How do you reset default browser styles in CSS?</h2>
+        <p>You can reset default browser styles by using a CSS reset stylesheet (e.g., Normalize.css) or applying global styles to set default values for margins, paddings, and other properties.</p>
+      </div>
+
+      <!-- Question 17 -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-xl font-semibold mb-2">17. What is the purpose of the <code>display</code> property in CSS?</h2>
+        <p>The <code>display</code> property determines how an element is displayed on the page. Common values include <code>block</code>, <code>inline</code>, <code>inline-block</code>, <code>flex</code>, and <code>grid</code>.</p>
+      </div>
+
+      <!-- Question 18 -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-xl font-semibold mb-2">18. How do you make a website responsive?</h2>
+        <p>To make a website responsive, use flexible grid layouts, CSS media queries, responsive images, and frameworks like Tailwind CSS to ensure the design adapts to different screen sizes and devices.</p>
+      </div>
+
+      <!-- Question 19 -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-xl font-semibold mb-2">19. What is the purpose of the <code>position</code> property in CSS?</h2>
+        <p>The <code>position</code> property specifies the positioning method for an element. Values include <code>static</code>, <code>relative</code>, <code>absolute</code>, <code>fixed</code>, and <code>sticky</code>.</p>
+      </div>
+
+      <!-- Question 20 -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-xl font-semibold mb-2">20. How do you use CSS transitions?</h2>
+        <p>CSS transitions allow you to change property values smoothly over a specified duration. Example: <code>transition: all 0.3s ease;</code>.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
